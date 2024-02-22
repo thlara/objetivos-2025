@@ -1,5 +1,17 @@
 :root{
     --cor-do-fundo: #1e1e1e;
     --verde: #6fff57;
-    
+    --branco: #ffffff;
+    --botao-ativo: #3a375e;
+    --boatao-inativo: rgba(58, 55, 94, 0.5);
+    --texto-fundo: rgba(58, 55, 94, 0.3);
+
+
+}
+body{
+    background-color: var(--cor-do-fundo);
+    color: var(--branco);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }

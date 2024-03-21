@@ -49,6 +49,9 @@ body{
 
 
 }
+.botao:first-child {
+    border-radius: 40px 40px 0 0;
+}
 
 .botoes {
 display: block;
@@ -58,8 +61,8 @@ display: block;
     border-bottom:  4px solid var(--verde);
 }
   
-.botao:first-child {
-    border-radius: 40px 40px 0 0;
+.aba-textos{
+    background-color: var(--texto-fundo);
 }
 
 @media screen and ( min-width: 768px) {

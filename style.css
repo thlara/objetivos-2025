@@ -41,7 +41,7 @@ body{
     padding: 0.5em 1em;
    cursor: pointer;
    width: 100%;
-   border-bottom: 4px solid var(--botao-ativo);
+   border-bottom: 2px solid var(--botao-ativo);
    border-left: 2px solid var(--botao-ativo);
    border-right: 2px solid var(--botao-ativo);
    border-top: none;
@@ -63,6 +63,8 @@ display: block;
   
 .abas-textos{
     background-color: var(--texto-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
 }
 
 @media screen and ( min-width: 768px) {

@@ -17,6 +17,8 @@ for (let i = 0; i < botoes.length; i++){
 }
 
 
+
+
 const contadores = document.querySelectorAll('.contador');
 const tempoObjetivo1 = new Date('2025-02-13T00:00:00');
 const tempoObjetivo2 = new Date('2025-03-01T00:00:00');
@@ -28,6 +30,9 @@ const tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4];
 for (let i = 0; i < contadores. length; i++) {
     contadores[i].textContent = calculaTempo(tempos[i]);
 }
+
+atualizaCronometro();
+setInterval(atualizaCronometro, 1000);
 
 
 function calculaTempo(tempoObjetivo1) {

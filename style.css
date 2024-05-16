@@ -115,7 +115,7 @@ display: block;
 .contador {
     display: flex;
     justify-content: center;
-    min-width: wrap;
+    min-width: 100px;
 }
 
 .contador-digito {
